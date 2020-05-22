@@ -34,5 +34,5 @@ genero$genero_imp[genero$n_V>genero$n_M]="V"
 muestra20[,4]<- muestra20[,3]
 names(muestra20)<- c("nif","nombre","genero"," genero_imp")
 muestra20[,4]<- if_else((muestra20$nombre)=="JOSE","V")
->>>>>>> rama-genero
+rama-genero
 #alguna modificación
